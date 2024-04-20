@@ -1,0 +1,75 @@
+/* Стили для тега h1 */
+h1 {
+    /* Типографика */
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    
+    /* Отступы и выравнивание */
+    margin: 20px;
+    text-align: center;
+    
+    /* Тень */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+    /* Подчеркивание */
+    text-decoration: underline;
+    
+    /* Прозрачность */
+    opacity: 0.8;
+    
+    /* Границы */
+    border: 2px solid blue;
+    border-radius: 10px;
+    
+    /* Фон */
+    background-color: #f0f0f0;
+    
+    /* Позиционирование */
+    position: relative;
+    top: 10px;
+    left: 20px;
+    
+    /* Анимация */
+    animation: example 5s infinite alternate;
+}
+
+/* Стили для тега p */
+p {
+    /* Типографика */
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    
+    /* Отступы */
+    margin: 10px 0;
+    
+    /* Тень */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    
+    /* Фон */
+    background-color: #fff;
+}
+
+/* Анимация */
+@keyframes example {
+    0%   { font-size: 24px; }
+    50%  { font-size: 28px; }
+    100% { font-size: 24px; }
+}
+
+/* Стили для ссылок */
+a {
+    /* Цвет */
+    color: blue;
+    
+    /* Убираем подчеркивание */
+    text-decoration: none;
+    
+    /* При наведении добавляем подчеркивание */
+    &:hover {
+        text-decoration: underline;
+    }
+}
