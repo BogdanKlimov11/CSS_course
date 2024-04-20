@@ -1,4 +1,4 @@
-<h1>Справочник по языку программирования CSS</h1>
+<h1 id="top">Справочник по языку программирования CSS</h1>
 
 <img src="https://github.com/BogdanKlimov11/CSS_course/assets/136115919/15166639-d17c-49ce-83dc-f7b95f078e6e" alt="CSS logo" title="CSS" width="100%" height="auto">
 
@@ -25,6 +25,12 @@
         <li><a href="#раздел-9">Значения свойств</a></li>
     </ol>
 </nav>
+
+---
+
+
+<!-- Разделы -->
+<h2 id="раздел-1">Введение <a href="#top">↑top↑</a></h2>
 
 ---
 
