@@ -37,6 +37,8 @@
 (чаще всего **HTML** или **XHTML**). Также может применяться к любым **XML**-документам, 
 например, к **SVG** или **XUL**.
 
+Пример базового кода CSS можно посмотреть <a href="https://github.com/BogdanKlimov11/CSS_course/blob/main/Resources/Example.html">здесь</a>.
+
 ---
 
 <h2 id="раздел-2">Свойства <a href="#top">↑top↑</a></h2>
